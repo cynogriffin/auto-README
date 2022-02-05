@@ -1,5 +1,6 @@
 // template to generate the README file
 const fileGenerator = repsonse => {
+    // creates a variable for which badge to use given the user's selection
     let badge = () => {
         switch (response.license) {
             case 'MIT':
@@ -13,6 +14,7 @@ const fileGenerator = repsonse => {
         };
     };
     
+    // template for the README
     return `
         ${badge}
         
@@ -63,4 +65,6 @@ const fileGenerator = repsonse => {
         If you have any questions or comments, please feel free to contact me via email at ${response.email}.
 
     `;
-}
+};
+
+module.exports = fileGenerator;
