@@ -27,15 +27,15 @@ In order to run and use this application, you must first install node.js. This a
 
 To use the application, you wil need to run `node index` from the command line of the repo, as seen below: 
 
-![node index in the command line](image here)
+![node index in the command line](https://github.com/cynogriffin/auto-README/blob/main/assets/images/initialize.PNG)
 
 Then you will be asked a series of questions about your project and your contact information. All of this information is entered into the command line prompts, as seen here:
 
-![command line prompts](image here)
+![command line prompts](https://github.com/cynogriffin/auto-README/blob/main/assets/images/prompts.PNG)
 
 Once all the questions have been completed, a confirmation message will be logged and a 'output' directory will be added with the newly-created README.md file inside. All of the user's information given to the prompts will be used to autofill the README, this no extra hassle with formatting or links needed. An exaple of a complete generated README can be seen below:
 
-![generated README file](image here)
+![generated README file](https://github.com/cynogriffin/auto-README/blob/main/assets/images/generated.PNG)
 
 ## License
 ##### [Back to Table of Contents](#table-of-contents)
